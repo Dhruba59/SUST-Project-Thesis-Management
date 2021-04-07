@@ -1,0 +1,15 @@
+.Project{ 
+  position: relative;
+}
+.Toggle {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-items: 'center';
+}
+
+.Accordion{
+  align-items: center;
+  margin: 10px;
+  justify-content: space-between;
+}
