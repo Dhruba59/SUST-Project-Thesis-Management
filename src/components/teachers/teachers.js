@@ -7,31 +7,31 @@ const teachers = (props) => {
   //const teachers_data = props.teacher_data;
   const teachers_data = [
     {
-      name: "Saiful islam",
+      name: "Mr.Tambourine man",
       age: 34,
       designation: "Assistance Prof",
       img: img,
     },
     {
-      name: "Saiful isladsfsm",
+      name: "Mr John Doe",
       age: 34,
       designation: "Assistance Prof",
       img: img,
     },
     {
-      name: "Saiful islam",
+      name: "Mr omuk tomuk",
+      age: 34,
+      designation: "Prof",
+      img: img,
+    },
+    {
+      name: "Mr Jodu mia",
       age: 34,
       designation: "Assistance Prof",
       img: img,
     },
     {
-      name: "Saiful islam",
-      age: 34,
-      designation: "Assistance Prof",
-      img: img,
-    },
-    {
-      name: "Saiful islam",
+      name: "Mr modhu mia",
       age: 34,
       designation: "Assistance Prof",
       img: img,

@@ -45,12 +45,11 @@ class teacher extends Component {
     return (
       <div className={css.Teacher}>
         {TeacherInfoModal}
-        <Card border="info" style={{  width: "18rem"}}>
-          <Card.Img variant="top" src={this.props.img} />
+        <Card onClick={this.OpenModals} border="info" style={{  width: "16rem"}}>
+          <Card.Img style={{maxWidth:'16rem', maxHeight:'8rem'}} variant="top" src={this.props.img} />
           <Card.Body>
             <Card.Title>{this.props.name}</Card.Title>
             <Card.Text>`Hey I am {this.props.name}. I am a {this.props.designation}.`</Card.Text>
-            <Button onClick={this.OpenModals} variant="primary">See Details</Button>
           </Card.Body>
         </Card>
       </div>

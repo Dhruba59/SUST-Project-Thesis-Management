@@ -1,6 +1,7 @@
 .Teacher {
   position: relative;
   margin: 2%;
+  cursor: pointer;
 }
 
 .Teachers {

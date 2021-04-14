@@ -14,16 +14,16 @@ const navbar = (props) => {
   return (
     <div className={css.Navbar}>
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="/">Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/projects">Projects</Nav.Link>
-            <Nav.Link href="#link">Thesis</Nav.Link>
+            <Nav.Link href="/thesis">Thesis</Nav.Link>
             <Nav.Link href='/teachers'>Teachers
               {/* <Link to="/teachers">Teachers Info</Link> */}
             </Nav.Link>
-            <Nav.Link href="#link">Studens</Nav.Link>
+            <Nav.Link href="#link">Students</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">About</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
